@@ -1,6 +1,6 @@
 #include <conio.h>
 #include <iostream.h>
-//using namespace std;
+using namespace std;
 
 long int reverseIt(long int num) {  // Use long int
     long int rev = 0;
@@ -18,11 +18,6 @@ int main() {
     cin >> num;
 
     cout << "Reversed Number: " << reverseIt(num) << endl;
-    if (num == reverseIt(num)) {
-      cout << "The number is a palindrome." << endl;
-  } else {
-      cout << "The number is not a palindrome." << endl;
-  }
     getch();
     return 0;
 }
